@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TREmotion"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "fork fro TREmotion"
 
   s.description  = <<-DESC
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
   #s.private_header_files = "Classes/TRVoice2Word/IATConfig.h"
-  s.public_header_files = "Classes/Emotion/EmotionControl.h"
+s.public_header_files = "Classes/Emotion/{EmotionControl,XHEmotion,XHEmotionManager}.h"
   s.resources = "Resources/*"
   #s.vendored_frameworks = "Framework/*.{framework}"
 
