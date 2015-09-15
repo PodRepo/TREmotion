@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
   #s.private_header_files = "Classes/TRVoice2Word/IATConfig.h"
-  s.public_header_files = "Classes/TREmotion/{XHEmotion}.h"
+  s.public_header_files = "Classes/Emotion/EmotionControl.h"
   s.resources = "Resources/*"
   #s.vendored_frameworks = "Framework/*.{framework}"
 
